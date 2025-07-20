@@ -1,0 +1,25 @@
+{
+  "name": "dam_web_cron",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/anagh534/dam_web_cron#readme",
+  "bugs": {
+    "url": "https://github.com/anagh534/dam_web_cron/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anagh534/dam_web_cron.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "dam_details_fetcher.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dam_details_fetcher.js"
+  },
+  "dependencies": {
+    "axios": "^1.10.0",
+    "cheerio": "^1.1.0"
+  }
+}
